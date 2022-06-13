@@ -14,8 +14,9 @@ const Navbar = () => {
 
     return (
         <div className='header-nav'>
-            <nav className='navbar'>
-                <a href='#app'  className='logo'>
+            <div className='top' id='top'></div>
+            <nav className='navbar' id='navbar'>
+                <a href='/'  className='logo'>
                     <img src={logo} alt='logo' />
                 </a>
                 <div className='hamburger' onClick={handleClick}>
@@ -25,10 +26,10 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="header" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
+                        <Link to="header" spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
                          <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
