@@ -10,8 +10,32 @@ html, body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        justify-content: end;
+        // align-items: center;
+        .info{
+        }
+        img{
+            margin: 8rem 2rem 0 0;
+        }
         h1{
-            margin: 0;
+            font-size: 2.2rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button{
+            width: 250px;
+            height: 50px;
+            font-size: 1.2rem;
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+            &:hover{
+                background-color: darkcyan;
+                transition: 0.5s;
+                border: 1px solid cyan;
+                color: white;
+                font-weight: 700;
+            }
         }
     }
 }

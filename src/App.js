@@ -13,7 +13,7 @@ import Navbar from './components/Nav';
 function App() {
   return (
     // <Router>
-      <div className="App">
+      <div className="App" id='app'>
           {/* <Routes >
             <Route  path='/' element={<Header/>}/>
             <Route  path='/About' element={<About/>}/>

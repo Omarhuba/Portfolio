@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='header-nav'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <a href='#app'  className='logo'>
                     <img src={logo} alt='logo' />
                 </a>
                 <div className='hamburger' onClick={handleClick}>
@@ -25,19 +25,19 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="header" spy={true} smooth={true} offset={-300} duration={500} onClick={closeMenu}>Home</Link>
+                        <Link to="header" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="about" spy={true} smooth={true} offset={-300} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                         <Link to="projects" spy={true} smooth={true} offset={-300} duration={500} onClick={closeMenu}>Projects</Link>
+                         <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                         <Link to="skills" spy={true} smooth={true} offset={-300} duration={500} onClick={closeMenu}>Skills</Link>
+                         <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
                     </li>
                     <li className='nav-item'>
-                          <Link to="contact" spy={true} smooth={true} offset={-300} duration={500} onClick={closeMenu}>Contact</Link>
+                          <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
                 </ul>
             </nav>
