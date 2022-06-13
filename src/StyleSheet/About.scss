@@ -8,6 +8,23 @@ html, body{
        background-color: #000000;
         h1{
             margin: 0;
+            padding: 3rem;
+            color: #19CACA;
+            font-size: 3rem;
+            font-family: 'Courier New', Courier, monospace;
         }
+        img{
+            border-radius: 50%;
+            border: 2px solid rgb(27, 181, 181);
+        }
+        p{
+            color: white;
+            font-size: 1.3rem;
+        }
+        .about_me{
+            width: 50%;
+            margin: auto;
+        }
+
     }
 }

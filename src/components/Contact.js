@@ -1,5 +1,5 @@
 import React from 'react'
-import '../StyleSheet/Contact.scss'
+import '../stylesheet/Contact.scss'
 
 
 export const Contact = () => {
