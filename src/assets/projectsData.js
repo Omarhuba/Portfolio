@@ -1,4 +1,4 @@
-const projects = [
+const Projects = [
     {
       id: 1,
       name: 'geoQuizzr',
@@ -46,4 +46,4 @@ const projects = [
     },
   ]
 
-  export default projects;
+  export default Projects;

@@ -1,13 +1,56 @@
 html, body{
     margin: 0;
     padding: 0;
-    .projects{
+    .project_page{
         margin: 0;
         padding: 0;
         min-height: 100vh;
-       background-color: chartreuse;
-        h1{
-            margin: 0;
+       background-color: black;
+       color: white;
+       h1{
+        margin: 0;
+        padding: 5rem;
+        text-align: center;
+        color: #19CACA;
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+       }
+       .project-items{
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+        //    gap: 10px 10px;
+        //    grid-gap: 5rem;
+           padding-bottom: 5rem;
         }
+        .project-img{
+            margin: auto
+        }
+        .project-info{
+            margin: 0 auto;
+            width: 70%;
+            h2{
+                color: aquamarine;
+                margin: 0;
+            }
+            p{
+                margin: 1.5rem 0;
+            }
+            a{
+
+                border-radius: 5px;
+                border: 2px solid cyan;
+                color: white;
+                cursor: pointer;
+                text-decoration: none;
+                padding: .7rem;
+                &:hover{
+                    background-color: cyan;
+                    color: #000;
+                    transition: all .5s ease-out;
+                    font-weight: 600;
+                }
+            }
+        }
+
     }
 }

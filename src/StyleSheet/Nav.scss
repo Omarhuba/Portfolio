@@ -1,3 +1,7 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
 .header-nav {
     position: fixed;
     height: 90px;
@@ -26,6 +30,9 @@
 
 .header-nav .nav-menu a {
     color: #fff;
+    &:hover{
+        color: darkturquoise;
+    }
 }
 
 .header-nav .navbar img {

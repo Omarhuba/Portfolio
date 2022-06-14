@@ -32,7 +32,7 @@ const Navbar = () => {
                         <Link to="about" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                         <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
+                         <Link to="project-items" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
                          <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
