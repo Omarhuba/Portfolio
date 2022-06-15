@@ -8,7 +8,7 @@ export const Projects = (props) => {
 
 
   return (
-    <div className="project_page">
+    <div className="project_page" id="project_page">
         <h1 data-aos="fade-up" data-aos-duration="2000">PROJECTS</h1>
 
      <ProjectsItem  name={props.items[0].name} img={props.items[0].img} desc={props.items[0].desc} codelink={props.items[0].codelink} sitelink={props.items[0].sitelink}/>

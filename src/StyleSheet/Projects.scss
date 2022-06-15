@@ -19,14 +19,19 @@ html, body{
            display: grid;
            grid-template-columns: repeat(2, 1fr);
         //    gap: 10px 10px;
-        //    grid-gap: 5rem;
+           grid-gap: 5rem;
            padding-bottom: 5rem;
         }
         .project-img{
-            margin: auto
+            // margin: auto
+            display: flex;
+            justify-content: flex-end;
         }
         .project-info{
-            margin: 0 auto;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            // margin: 0 auto;
             width: 70%;
             h2{
                 color: aquamarine;

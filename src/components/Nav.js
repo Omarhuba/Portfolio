@@ -13,7 +13,7 @@ const Navbar = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <div className='header-nav'>
+        <div className='header-nav' data-aos="fade-down" data-aos-duration="1000">
             <div className='top' id='top'></div>
             <nav className='navbar' id='navbar'>
                 <a href='/'  className='logo'>
