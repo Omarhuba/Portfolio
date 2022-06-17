@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import '../stylesheet/Projects.scss'
-import img1 from '../assets/website-screenshots/beer-wiki.png'
+import img1 from '../assets/website-screenshots/e-wallet.png'
 
 function ProjectsItem(props) {
     // const [img, setImg] = useState(props.img)
