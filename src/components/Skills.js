@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheet/Skills.scss";
+import "../sass/Skills.scss";
 import html from "../assets/logos/html-img.png";
 import css from "../assets/logos/css-img.png";
 import js from "../assets/logos/js-img.png";

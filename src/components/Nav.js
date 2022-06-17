@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import logo from '../assets/portfolio.png'
 
-import '../stylesheet/Nav.scss'
+import '../sass/Nav.scss'
 
 const Navbar = () => {
 

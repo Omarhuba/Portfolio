@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheet/Header.scss'
+import '../sass/Header.scss'
 import name from '../assets/name.png'
 
 export const Header = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheet/Projects.scss";
+import "../sass/Projects.scss";
 import ProjectsItem from "./ProjectsItem";
 
 export const Projects = (props) => {

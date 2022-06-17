@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheet/Projects.scss'
+import '../sass/Projects.scss'
 
 function ProjectsItem(props) {
     // const [img, setImg] = useState(props.img)

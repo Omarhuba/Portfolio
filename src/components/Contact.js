@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheet/Contact.scss";
+import "../sass/Contact.scss";
 import linkendin from "../assets/logos/linkedin.png";
 import github from "../assets/logos/github.png";
 import facebook from "../assets/logos/facebook.png";

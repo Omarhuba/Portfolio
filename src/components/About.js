@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import '../stylesheet/About.scss'
+import '../sass/About.scss'
 import omar from '../assets/omar.png'
 // import Typical from 'react-typical'
 import AOS from "aos";
