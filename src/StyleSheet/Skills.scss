@@ -2,9 +2,9 @@ html, body{
     margin: 0;
     padding: 0;
     .skills{
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
       background-color: black;
       color: white;
       display: flex;
@@ -23,6 +23,7 @@ html, body{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 5rem;
+            padding: 3rem;
             .logo{
             display: flex;
             justify-content: center;

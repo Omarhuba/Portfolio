@@ -22,13 +22,13 @@ export const About = () => {
                 wrapper='b'
                 steps={[
                     'Developer ',
-                    500,
+                    1500,
                     'Open Sourcer ',
-                    500,
+                    1500,
                     'Husband ',
-                    500,
+                    1500,
                     'Father ',
-                    500,
+                    1500,
                 ]}
             />
         </p>
