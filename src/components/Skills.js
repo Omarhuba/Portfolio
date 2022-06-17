@@ -22,8 +22,9 @@ import trello from "../assets/logos/trello.png";
 export const Skills = () => {
   return (
     <div className="skills" id="skills">
-      <h1 data-aos="fade-up" data-aos-duration="2000">Skills</h1>
-      <div className="skill-block" data-aos="fade-up" data-aos-duration="2000">
+      <h1 data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">Skills</h1>
+      <div className="skill-block" data-aos="zoom-in-up" data-aos-duration="2000">
         <div className="logo">
           <img src={html} alt="html" />
           <p>HTML</p>

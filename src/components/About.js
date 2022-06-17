@@ -13,10 +13,18 @@ export const About = () => {
       }, []);
   return (
     <div className='about' id='about'>
-        <h1 data-aos="fade-up" data-aos-duration="2000">About Me</h1>
-        <img data-aos="fade-up" data-aos-duration="2000" src={omar} alt="omar"  width='300px'/>
-        <h1 data-aos="fade-up" data-aos-duration="2000">Hi, I'm Aimaierjiang Mutalifu</h1>
-        <p data-aos="fade-up" data-aos-duration="2000">I'm a {' '}
+        <h1 data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-duration="2000">About Me</h1>
+        <img data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-duration="2000" src={omar} alt="omar"  width='300px'/>
+        <h1 data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-duration="2000">Hi, I'm Aimaierjiang Mutalifu</h1>
+        <p data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-duration="2000">I'm a {' '}
             <Typical
                 loop={Infinity}
                 wrapper='b'

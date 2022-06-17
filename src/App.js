@@ -6,7 +6,11 @@ import {  Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 import { Contact } from './components/Contact'
 import Navbar from './components/Nav';
-
+import poster from './assets/website-screenshots/poster.png'
+import sinus from './assets/website-screenshots/sinus.png'
+import ewallet from './assets/website-screenshots/e-wallet.png'
+import starwars from './assets/website-screenshots/star-wars.png'
+import yummy from './assets/website-screenshots/yummy.png'
 
 
 
@@ -14,48 +18,52 @@ function App() {
   const projects = [
     {
       id: 1,
-      name: "geoQuizzr",
-      img: "./assets/website-screenshots/beer-wiki.png",
-      desc: "A full stack map-based quiz app where users answer questions based on their location and collect points for correct answers. The front end is powered by React, Redux and Typescript which communicates with a Node/Express API and MongoDB database.",
-      codelink: "https://github.com/emmalearnscode/gq-frontend",
-      sitelink: "https://geoquizzr.netlify.app/",
+      name: "Inga Bra Bygg AB",
+      img: poster,
+      desc: "Inge Berglund driver en byggfirma som renoverar fasader för privatpersoner och företag. Projekt byggdes av Node.js, Express.js, Mongoose, MVC, Filuppladdning, JWT, Bcrypt, RBAC, Websockets, Fullt fungerande endpoints. ",
+      codelink: "https://github.com/Omarhuba/Backend-Slutproject-Grupp",
+      sitelink: "",
     },
     {
       id: 2,
-      name: "MeetApp",
-      imgURL: "meetapp",
-      img: "./assets/website-screenshots/beer-wiki.png",
+      name: "Cold'n Yummy",
+      imgURL: "conldn yummy",
+      img: yummy,
+      desc: "Cold n Yummy™ vill ha en kampanjsida för framröstning av en ny glassmak. Användare väljer en smak och skickar med sitt namn och e-mail-adress för att rösta på den. Man ska även kunna se topplistan på de mest populära smakerna.",
+      codelink: "https://github.com/Omarhuba/coldn-yumyy-express-sequelize-",
+      sitelink: "",
 
-      desc: "A mock version of meetup.com. Users can find events in their local area, login, register and unregister for events, chat, leave a rating and create their own events. The site is built using React, Redux and Typescript using Test Driven Development (Jest and React Testing Library).",
-      codelink: "https://github.com/emmalearnscode/tdd-meetup",
-      sitelink: "https://tddmeetapp.netlify.app/",
     },
     {
       id: 3,
-      name: "Företagspoolen ITHS Stockholm",
-      imgURL: "foretagspoolen",
-      img: "./assets/website-screenshots/beer-wiki.png",
-      desc: "A searchable, sortable resource for ITHS Stockholm students to search for internships. The site is built in React and Firebase and also has a password-protected admin interface for staff to keep the internship pool updated.",
-      codelink: "https://github.com/emmalearnscode/foretagspoolen",
-      sitelink: "https://youtu.be/qUmTN5Ailc8",
+      name: "Sinus Web Shop",
+      imgURL: "sinus",
+      img: sinus,
+
+      desc: "En e-handelsbutik byggd i Vue JS med VueX och routing. Kunder kan skapa ett konto för att spara sin information och det finns även ett admingränssnitt för att skapa, läsa, uppdatera och ta bort produkter och beställningar.",
+      codelink: "https://github.com/theodorwill/Slutprojekt-Sinus-Webshop",
+      sitelink: "",
+
     },
     {
       id: 4,
-      name: "Sinus Webshop",
-      imgURL: "sinus-webshop",
-      img: "./assets/website-screenshots/beer-wiki.png",
-      desc: "An e-commerce store built in Vue JS with VueX and routing. Customers can create an account to save their information and there is also an admin interface to create, read, update and delete products and orders.",
-      codelink: "https://github.com/emmalearnscode/sinus-webshop",
-      sitelink: "https://youtu.be/rikf5ZNmD6I",
+      name: "E-Wallet",
+      imgURL: "ewallet",
+      img: ewallet,
+      desc: "En digital plånbok app som samlar alla kreditkort. Det ska gå och se sina kreditkort samt lägga till nya.",
+      codelink: "https://github.com/Omarhuba/E-WALLET-VUE",
+      sitelink: "",
+
     },
     {
       id: 5,
-      name: "Beer Wiki",
-      imgURL: "beer-wiki",
-      img: "./assets/website-screenshots/beer-wiki.png",
-      desc: "A single page application where you can search for a variety of beers, created using the punkIPA API, written in HTML, CSS and JavaScript. It is possible to acess a randomly chosen beer, search simply by name or do an advanced search. The site is fully mobile-responsive.",
-      codelink: "https://github.com/emmalearnscode/js10-vanilla-slutprojekt",
-      sitelink: "https://emmalearnscode.github.io/js10-vanilla-slutprojekt/",
+      name: "Star Wars",
+      imgURL: "star-wars",
+      img: starwars,
+      desc: "Vanilla Javascript med Star Wars API, Appen är en webbplats för en katalog över Star Wars karaktärer.",
+      codelink: "https://github.com/Omarhuba/Star-Wars-Native-Javascript",
+      sitelink: "https://youtu.be/rikf5ZNmD6I",
+
     },
   ];
   return (

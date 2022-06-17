@@ -15,7 +15,7 @@ export const Projects = (props) => {
      <ProjectsItem  name={props.items[1].name} img={props.items[1].img} desc={props.items[1].desc} codelink={props.items[1].codelink} sitelink={props.items[1].sitelink}/>
      <ProjectsItem  name={props.items[2].name} img={props.items[2].img} desc={props.items[2].desc} codelink={props.items[2].codelink} sitelink={props.items[2].sitelink}/>
      <ProjectsItem  name={props.items[3].name} img={props.items[3].img} desc={props.items[3].desc} codelink={props.items[3].codelink} sitelink={props.items[3].sitelink}/>
-     <ProjectsItem  name={props.items[0].name} img={props.items[4].img} desc={props.items[4].desc} codelink={props.items[4].codelink} sitelink={props.items[4].sitelink}/>
+     <ProjectsItem  name={props.items[4].name} img={props.items[4].img} desc={props.items[4].desc} codelink={props.items[4].codelink} sitelink={props.items[4].sitelink}/>
     </div>
   );
 };
