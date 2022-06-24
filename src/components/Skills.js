@@ -41,10 +41,10 @@ export const Skills = () => {
           <img src={vscode} alt="html" />
           <p>VS CODE</p>
         </div>
-        <div className="logo">
+        {/* <div className="logo">
           <img src={materialui} alt="html" />
           <p>Material IU</p>
-        </div>
+        </div> */}
         <div className="logo">
           <img src={vue} alt="html" />
           <p>VUE</p>
@@ -53,14 +53,14 @@ export const Skills = () => {
           <img src={react} alt="html" />
           <p>React</p>
         </div>
-        <div className="logo">
+        {/* <div className="logo">
           <img src={react} alt="html" />
           <p>React Native</p>
-        </div>
-        <div className="logo">
+        </div> */}
+        {/* <div className="logo">
           <img src={expo} alt="html" />
           <p>Expo</p>
-        </div>
+        </div> */}
         <div className="logo">
           <img src={node} alt="html" />
           <p>Node</p>
