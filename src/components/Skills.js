@@ -4,10 +4,10 @@ import html from "../assets/logos/html-img.png";
 import css from "../assets/logos/css-img.png";
 import js from "../assets/logos/js-img.png";
 import vscode from "../assets/logos/vscode-img.png";
-import materialui from "../assets/logos/materialui-img.png";
+// import materialui from "../assets/logos/materialui-img.png";
 import vue from "../assets/logos/vue-img.png";
 import react from "../assets/logos/react-img.png";
-import expo from "../assets/logos/expo-img.png";
+// import expo from "../assets/logos/expo-img.png";
 import node from "../assets/logos/node-img.png";
 import npm from "../assets/logos/npm-img.png";
 import sqlite from "../assets/logos/sqlite-img.png";
@@ -61,10 +61,10 @@ export const Skills = () => {
           <img src={expo} alt="html" />
           <p>Expo</p>
         </div> */}
-        <div className="logo">
-          <img src={node} alt="html" />
-          <p>Node</p>
-        </div>
+          <div className="logo">
+            <img src={node} alt="html" />
+            <p>Node</p>
+          </div>
         <div className="logo">
           <img src={npm} alt="html" />
           <p>NPM</p>
