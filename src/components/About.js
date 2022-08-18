@@ -24,7 +24,7 @@ export const About = () => {
      data-aos-duration="2000">Hi, I'm Aimaierjiang Mutalifu</h1>
         <p data-aos="fade-up"
      data-aos-anchor-placement="top-center"
-     data-aos-duration="2000">I'm a Developer, Husband, and Father {' '}
+     data-aos-duration="2000">I'm a Developer, Husband, and Father of Twins  {' '}
             {/* <Typical
                 loop={Infinity}
                 wrapper='b'

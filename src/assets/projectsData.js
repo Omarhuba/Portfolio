@@ -1,49 +1,102 @@
-const Projects = [
-    {
-      id: 1,
-      name: 'geoQuizzr',
-      imgURL: 'geoquizzr',
-      desc:
-        'A full stack map-based quiz app where users answer questions based on their location and collect points for correct answers. The front end is powered by React, Redux and Typescript which communicates with a Node/Express API and MongoDB database.',
-      codelink: 'https://github.com/emmalearnscode/gq-frontend',
-      sitelink: 'https://geoquizzr.netlify.app/',
-    },
-    {
-      id: 2,
-      name: 'MeetApp',
-      imgURL: 'meetapp',
-      desc:
-        'A mock version of meetup.com. Users can find events in their local area, login, register and unregister for events, chat, leave a rating and create their own events. The site is built using React, Redux and Typescript using Test Driven Development (Jest and React Testing Library).',
-      codelink: 'https://github.com/emmalearnscode/tdd-meetup',
-      sitelink: 'https://tddmeetapp.netlify.app/',
-    },
-    {
-      id: 3,
-      name: 'Företagspoolen ITHS Stockholm',
-      imgURL: 'foretagspoolen',
-      desc:
-        'A searchable, sortable resource for ITHS Stockholm students to search for internships. The site is built in React and Firebase and also has a password-protected admin interface for staff to keep the internship pool updated.',
-      codelink: 'https://github.com/emmalearnscode/foretagspoolen',
-      sitelink: 'https://youtu.be/qUmTN5Ailc8',
-    },
-    {
-      id: 4,
-      name: 'Sinus Webshop',
-      imgURL: 'sinus-webshop',
-      desc:
-        'An e-commerce store built in Vue JS with VueX and routing. Customers can create an account to save their information and there is also an admin interface to create, read, update and delete products and orders.',
-      codelink: 'https://github.com/emmalearnscode/sinus-webshop',
-      sitelink: 'https://youtu.be/rikf5ZNmD6I',
-    },
-    {
-      id: 5,
-      name: 'Beer Wiki',
-      imgURL: 'beer-wiki',
-      desc:
-        'A single page application where you can search for a variety of beers, created using the punkIPA API, written in HTML, CSS and JavaScript. It is possible to acess a randomly chosen beer, search simply by name or do an advanced search. The site is fully mobile-responsive.',
-      codelink: 'https://github.com/emmalearnscode/js10-vanilla-slutprojekt',
-      sitelink: 'https://emmalearnscode.github.io/js10-vanilla-slutprojekt/',
-    },
-  ]
+import poster from '../assets/website-screenshots/poster.png'
+import sinus from '../assets/website-screenshots/sinus.png'
+import ewallet from '../assets/website-screenshots/e-wallet.png'
+import starwars from '../assets/website-screenshots/star-wars.png'
+import yummy from '../assets/website-screenshots/yummy.png'
+import sinusdesign from '../assets/website-screenshots/sinus-design.png'
+import design from '../assets/website-screenshots/design-principer.png'
+import sweuyghur from '../assets/website-screenshots/swe-uyghur.png'
+import food from '../assets/website-screenshots/food-order-app.png'
 
-  export default Projects;
+
+const projectsData = [
+  {
+    id: 1,
+    name: "Swe-Uyghur Fotball Club (Backend)",
+    img: sweuyghur,
+    desc: "Swe-Uyghur Fotball Club är min fotball club och Jag bygger den för att vi ska skapa konto, lägga inlägg, sälja våran producter osv . Projekt byggdes av Node.js, Express.js, Mongoose, MVC, Filuppladdning, JWT, Bcrypt, RBAC, Fullt fungerande endpoints. ",
+    codelink: "https://github.com/Omarhuba/Fullstack-Swe-Uyghur",
+    sitelink: "",
+  },
+  {
+    id: 2,
+    name: "Inga Bra Bygg AB (Backend)",
+    img: poster,
+    desc: "Inge Berglund driver en byggfirma som renoverar fasader för privatpersoner och företag. Projekt byggdes av Node.js, Express.js, Mongoose, MVC, Filuppladdning, JWT, Bcrypt, RBAC, Websockets, Fullt fungerande endpoints. ",
+    codelink: "https://github.com/Omarhuba/Backend-Slutproject-Grupp",
+    sitelink: "",
+  },
+  {
+    id: 3,
+    name: "Cold'n Yummy",
+    imgURL: "conldn yummy",
+    img: yummy,
+    desc: "Cold n Yummy™ vill ha en kampanjsida för framröstning av en ny glassmak. Användare väljer en smak och skickar med sitt namn och e-mail-adress för att rösta på den. Man ska även kunna se topplistan på de mest populära smakerna.",
+    codelink: "https://github.com/Omarhuba/coldn-yumyy-express-sequelize-",
+    sitelink: "",
+
+  },
+  {
+    id: 4,
+    name: "Food-Order-React-APP",
+    imgURL: "food-order",
+    img: food,
+    desc: "Food-Order-App är en enkel beställnings app. Den byggdes av React, Man kan beställa food, add item, remove item osv ",
+    codelink: "https://github.com/Omarhuba/Food-Order-App-react-",
+    sitelink: "",
+
+  },
+  {
+    id: 5,
+    name: "Sinus Web Shop",
+    imgURL: "sinus",
+    img: sinus,
+
+    desc: "En e-handelsbutik byggd i Vue JS med VueX och routing. Kunder kan skapa ett konto för att spara sin information och det finns även ett admingränssnitt för att skapa, läsa, uppdatera och ta bort produkter och beställningar.",
+    codelink: "https://github.com/theodorwill/Slutprojekt-Sinus-Webshop",
+    sitelink: "",
+
+  },
+  {
+    id: 6,
+    name: "Figma-Design",
+    imgURL: "sinus-design",
+    img: sinusdesign,
+    desc: "Figma med Sinus webbshop Design, Använd Figma enligt Design principer",
+    codelink: "https://i.ibb.co/r5k0HzX/sinus-design.png",
+    sitelink: "",
+
+
+  },
+  {
+    id: 7,
+    name: "E-Wallet",
+    imgURL: "ewallet",
+    img: ewallet,
+    desc: "En digital plånbok app som samlar alla kreditkort. Det ska gå och se sina kreditkort samt lägga till nya.",
+    codelink: "https://github.com/Omarhuba/E-WALLET-VUE",
+    sitelink: "",
+
+  },
+  {
+    id: 8,
+    name: "Figma",
+    imgURL: "sinus-design",
+    img: design,
+    desc: "Figma med Olica Design Principer, Använd Style Guide, Atomer, Moleykyler, Organismer, och olika Template båda Desktop och Mobil ",
+    codelink: "https://i.ibb.co/TMWYFSB/design-principer.png",
+    sitelink: "",
+
+  },
+  {
+    id: 9,
+    name: "Star Wars",
+    imgURL: "star-wars",
+    img: starwars,
+    desc: "Vanilla Javascript med Star Wars API, Appen är en webbplats för en katalog över Star Wars karaktärer.",
+    codelink: "https://github.com/Omarhuba/Star-Wars-Native-Javascript",
+    sitelink: "https://youtu.be/rikf5ZNmD6I",
+
+  },
+];
+  export default projectsData;
