@@ -1,25 +1,19 @@
 import React from "react";
-import "../sass/Projects.scss";
+import "../sass/ProjectItem.scss";
 
 function ProjectsItem(props) {
   return (
-    <div className="project-items">
-      <section
-        className="project-img"
-        data-aos="fade-up-right"
-        data-aos-duration="2000"
-      >
-        <img src={props.img} alt="iaamage" width="500px" />
-      </section>
-      <section
-        className="project-info"
-        data-aos="fade-up-left"
-        data-aos-duration="2000"
-      >
-        <h2>{props.name}</h2>
-        <p>{props.desc}</p>
-        <a href={props.codelink}>VIEW CODE</a>
-      </section>
+    <div className="container" id="project-items">
+      <div className="card" data-aos="fade-up" data-aos-duration="2000">
+        <div className="project-img">
+          <img src={props.img} alt="iaamage" width="380px" height='400px' />
+        </div>
+        <div className="project-info">
+          <h2>{props.name}</h2>
+          <p>{props.desc}</p>
+          <a href={props.codelink}>VIEW CODE</a>
+        </div>
+      </div>
     </div>
   );
 }
