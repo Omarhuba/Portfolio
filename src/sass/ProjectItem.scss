@@ -1,18 +1,19 @@
 
 
   .card {
-    width: 400px;
-    height: 710px;
+    width: 360px;
+    height: 670px;
     border-radius: 10px;
     box-shadow: 3px 2px 15px 1px #FFFFF5;
 
   }
-  .project-img {
-    height: 400px;
-    padding: .6rem;
+  .project-img  img{
+    width: 330px;
+    height: 340px;
+    padding: .9rem;
   }
   .project-info {
-    width: 400px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;

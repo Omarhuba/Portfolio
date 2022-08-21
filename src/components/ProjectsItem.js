@@ -6,7 +6,7 @@ function ProjectsItem(props) {
     <div className="container" id="project-items">
       <div className="card" data-aos="fade-up" data-aos-duration="2000">
         <div className="project-img">
-          <img src={props.img} alt="iaamage" width="380px" height='400px' />
+          <img src={props.img} alt="iaamage"  />
         </div>
         <div className="project-info">
           <h2>{props.name}</h2>
