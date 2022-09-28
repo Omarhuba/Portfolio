@@ -1,6 +1,8 @@
-html, body{
+
+* {
     max-width: 1440px;
+    box-sizing: border-box;
     margin: auto;
     padding: 0;
-    box-sizing: border-box;
-}
+    font-family: 'PT Sans', sans-serif;
+  }

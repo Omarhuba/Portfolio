@@ -2,7 +2,15 @@
 .App {
   max-width: 1440px;
   margin: auto;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
+/* * {
+  max-width: 1440px;
+  margin: auto;
+} */
+
 
 
 @media (prefers-reduced-motion: no-preference) {

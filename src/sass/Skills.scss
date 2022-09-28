@@ -1,39 +1,35 @@
-html, body{
+.skills {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
     margin: 0;
-    padding: 0;
-    .skills{
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-      background-color: black;
-      color: white;
+    padding: 5rem;
+    text-align: center;
+    color: #19caca;
+    font-size: 3rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .skill-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    padding: 3rem;
+    .logo {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      h1{
+      p {
         margin: 0;
-        padding: 5rem;
-        text-align: center;
-        color: #19CACA;
-        font-size: 3rem;
-        font-family: 'Courier New', Courier, monospace;
-        }
-        .skill-block{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 5rem;
-            padding: 3rem;
-            .logo{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            p{
-                margin: 0;
-                color: cyan;
-            }
-        }
+        color: cyan;
       }
     }
+  }
 }

@@ -1,49 +1,85 @@
-import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
-import logo from '../assets/portfolio.png'
-
 import '../sass/Nav.scss'
+import React, { useState, useEffect } from "react";
 
-const Navbar = () => {
+export const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+  console.log(button);
 
-    const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
-    const closeMenu = () => setClick(false)
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
 
-    return (
-        <div className='header-nav' data-aos="fade-down" data-aos-duration="1000">
-            <div className='top' id='top'></div>
-            <nav className='navbar' id='navbar'>
-                <a href='/'  className='logo'>
-                    <img src={logo} alt='logo' />
-                </a>
-                <div className='hamburger' onClick={handleClick}>
-                    {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-                        : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
+  useEffect(() => {
+    showButton();
+  }, []);
+  window.addEventListener("resize", showButton);
 
-                </div>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className='nav-item'>
-                        <Link to="header" spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>Home</Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to="about" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>About</Link>
-                    </li>
-                    <li className='nav-item'>
-                         <Link to="project-items" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
-                    </li>
-                    <li className='nav-item'>
-                         <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
-                    </li>
-                    <li className='nav-item'>
-                          <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
-                    </li>
-                </ul>
-            </nav>
+  return (
+    <div>
+      <div className="wrapper">
+        <div className="logo">
+          <Link to="header" spy={true} smooth={true} offset={-100} duration={500} className="navbar-logo" onClick={closeMobileMenu}>
+            Portfolio
+            <i className="fab fa-typo3" />
+          </Link>
         </div>
-    )
-}
 
-export default Navbar
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link to="header" spy={true} smooth={true} offset={-100} duration={500} className="nav-links" onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="nav-links" onClick={closeMobileMenu}>
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="project-items"
+              spy={true} smooth={true} offset={-100} duration={500}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="skills"
+              spy={true} smooth={true} offset={-100} duration={500}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="contact"
+              spy={true} smooth={true} offset={-100} duration={500}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Contact
+            </Link>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  );
+};

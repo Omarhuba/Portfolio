@@ -6,7 +6,7 @@ import {  About } from './components/About'
 import {  Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 import { Contact } from './components/Contact'
-import Navbar from './components/Nav';
+import {Navbar} from './components/Nav';
 import projectsData from './assets/projectsData';
 
 

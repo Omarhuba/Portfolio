@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+}
     .container{
         padding: 0;
        color: white;
@@ -23,4 +24,13 @@ html, body{
 
 
     }
-}
+@media  screen and (max-width: 900px) {
+    .project_page{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    // styles go here
+  }
