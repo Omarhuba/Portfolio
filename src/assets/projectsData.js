@@ -12,7 +12,7 @@ import food from '../assets/website-screenshots/food-order-app.png'
 const projectsData = [
   {
     id: 1,
-    name: "Swe-Uyghur .FC (Backend)",
+    name: "Swe-Uyghur .FC (Fullstack)",
     img: sweuyghur,
     desc: "Swe-Uyghur Fotball Club är min fotball club och Jag bygger den för att vi ska skapa konto, lägga inlägg, sälja våran producter osv . Projekt byggdes av Node.js, Express.js, Mongoose, MVC, Filuppladdning, JWT, Bcrypt, RBAC, Fullt fungerande endpoints. ",
     codelink: "https://github.com/Omarhuba/Fullstack-Swe-Uyghur",
@@ -48,7 +48,7 @@ const projectsData = [
   },
   {
     id: 5,
-    name: "Sinus Web Shop",
+    name: "Sinus Web Shop(Vue)",
     imgURL: "sinus",
     img: sinus,
 
